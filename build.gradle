@@ -12,7 +12,7 @@ repositories {
 }
 
 dependencies {
-  implementation 'org.springframework.boot:spring-boot-starter'
+  implementation "org.springframework.boot:spring-boot-starter:${springBootVersion}"
   implementation("io.awspring.cloud:spring-cloud-starter-aws-secrets-manager-config:${secretsManagerConfigVersion}") {
     exclude group: 'com.amazonaws', module: 'aws-java-sdk-s3'
     exclude group: 'com.amazonaws', module: 'aws-java-sdk-ec2'
