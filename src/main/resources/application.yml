@@ -3,3 +3,4 @@ spring:
     import:
       - aws-secretsmanager:dev/my-app/database-creds
       - aws-secretsmanager:dev/my-app/oauth-creds
+      - optional:aws-secretsmanager:dev/my-app/some-other-creds
