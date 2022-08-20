@@ -1,3 +1,7 @@
-# spring-boot-aws-secrets
+# Working with AWS Secrets Manager
 
-A small project to fetch secrets from AWS secrets manager from a Spring Boot app
+### Prerequisites:
+
+Set up AWS CLI using this [guide](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html).
+
+This is required to configure AWS access credentials in your local machine.
